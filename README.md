@@ -1,8 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
 
-## Getting Started
+# 🧠 AI ChatBot – Intelligent Multi-Level Support Assistant
 
-First, run the development server:
+**AI ChatBot** is a full-stack, intelligent customer support chatbot application developed using **Next.js**, **React**, **Node.js**, and **Gemini AI**. Created as part of a collaborative team project, the chatbot simulates a support assistant for a fictional sports retail company. The project highlights skills in **Generative AI integration**, **chatbot architecture**, and **modern web development**.
+
+🎥 **Watch the Demo Video:**
+[![AI ChatBot Demo](https://img.youtube.com/vi/4RmZB5esvMs/0.jpg)](https://www.youtube.com/watch?v=4RmZB5esvMs)
+
+---
+
+## 🚀 Project Highlights
+
+* **Multi-Level Chatbot Design**: Starts with basic scripted responses and evolves into a generative AI-powered support system.
+* **Retail Use-Case Simulation**: Supports purchasing, tracking, and canceling orders for a mock sporting goods retailer.
+* **AI Integration**: Powered by **Gemini AI** via **OpenRouter API** and **LLaMA** for dynamic, intelligent conversations.
+* **Team Collaboration**: Developed collaboratively, focusing on real-world project delivery and version control.
+
+---
+
+## 🛠 Tech Stack
+
+| Technology     | Purpose                             |
+| -------------- | ----------------------------------- |
+| **Next.js**    | Framework for React-based SSR       |
+| **React**      | Frontend component architecture     |
+| **Node.js**    | Backend services and APIs           |
+| **Gemini AI**  | Generative AI for smart replies     |
+| **OpenRouter** | API platform for AI integration     |
+| **LLaMA**      | Language model for contextual logic |
+
+---
+
+## 💡 Features
+
+* 🤖 **Conversational AI Interface**
+  Handles user queries with intelligent, natural responses.
+
+* 🛒 **Retail Operations**
+
+  * **Purchases**: Simulate adding items to a cart and placing orders
+  * **Tracking**: Validate tracking codes and return delivery status
+  * **Cancellation**: Cancel orders and simulate refund process
+
+* 📄 **Mock Order System**
+  Generates:
+
+  * Order numbers
+  * Tracking IDs (e.g., `JMN321`)
+  * Confirmation messages
+  * Delivery estimates
+
+* ⚙️ **Prompt Engineering**
+  Custom system prompts to guide LLaMA and Gemini’s behavior.
+
+---
+
+## 📦 Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with `create-next-app`.
+
+### ✅ Prerequisites
+
+* Node.js (v16+)
+* npm / yarn / bun / pnpm
+* API key for OpenRouter (if integrating AI)
+
+### 🧪 Run Locally
 
 ```bash
 npm run dev
@@ -14,25 +77,52 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🔧 Modify the Project
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Edit the main chatbot interface at:
 
-## Learn More
-DEMO : (https://www.youtube.com/watch?v=4RmZB5esvMs) 
+```
+app/page.js
+```
 
-To learn more about Next.js, take a look at the following resources:
+Project auto-refreshes as you update files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ✨ Live Demo Walkthrough
 
-## Deploy on Vercel
+> 📺 [Watch the full demo on YouTube](https://www.youtube.com/watch?v=4RmZB5esvMs)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Welcome message** includes company name, store count, and services offered.
+* **Purchase simulation**: User selects an item → receives confirmation and delivery details.
+* **Tracking**: Input a 6-character tracking number → returns current order status.
+* **Cancellation**: Cancel any order and simulate refund logic (5–7 business days).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Prompt engineering ensures realistic responses and fallback behavior when invalid inputs are used.
 
+---
+
+## 🌐 Deployment
+
+Deployed using **Vercel** for seamless CI/CD.
+
+### Deploy Your Own
+
+1. Push this project to GitHub
+2. Connect GitHub to [Vercel](https://vercel.com/)
+3. Set any required environment variables (e.g., API key)
+4. Deploy and go live in seconds
+
+---
+
+## 📘 Learn More
+
+* [Next.js Documentation](https://nextjs.org/docs)
+* [OpenRouter API](https://openrouter.ai/)
+* [Gemini AI Overview](https://deepmind.google/technologies/gemini/)
+* [LLaMA Language Model](https://ai.meta.com/llama/)
+* [Vercel Deployment Docs](https://vercel.com/docs)
+
+---
