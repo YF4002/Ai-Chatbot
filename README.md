@@ -5,7 +5,7 @@
 **AI ChatBot** is a full-stack, intelligent customer support chatbot application developed using **Next.js**, **React**, **Node.js**, and **Gemini AI**. Created as part of a collaborative team project, the chatbot simulates a support assistant for a fictional sports retail company. The project highlights skills in **Generative AI integration**, **chatbot architecture**, and **modern web development**.
 
 🎥 **Watch the Demo Video:**
-[![AI ChatBot Demo](https://img.youtube.com/vi/4RmZB5esvMs/0.jpg)](https://www.youtube.com/watch?v=4RmZB5esvMs)
+[![AI ChatBot Demo](https://www.youtube.com/watch?v=4RmZB5esvMs)
 
 ---
 
